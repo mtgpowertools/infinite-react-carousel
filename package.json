@@ -2,11 +2,12 @@
   "name": "infinite-react-carousel",
   "version": "1.2.11",
   "description": "Infinite carousel for react",
-  "main": "./src",
+  "main": "./lib",
   "files": [
     "src"
   ],
   "scripts": {
+    "postinstall": "babel ./src --out-dir ./lib",
     "babel": "babel ./src --out-dir ./lib",
     "dev": "run-p dev:client",
     "dev:client": "webpack-dev-server --mode development --devtool inline-source-map --hot --colors --progress --config ./build/webpack.dev.config.js",
