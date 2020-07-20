@@ -23,7 +23,7 @@ import {
   handleWheel,
   handleVisibilityChange,
 } from './listener';
-import './style.css';
+//import './style.css';
 
 const extractObject = (spec, keys) => {
   const newObject = {};
