@@ -4,8 +4,7 @@
   "description": "Infinite carousel for react",
   "main": "./src",
   "files": [
-    "dist",
-    "lib"
+    "src"
   ],
   "scripts": {
     "babel": "babel ./src --out-dir ./lib",
